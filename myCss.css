@@ -1,0 +1,88 @@
+.project-title {
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+/*
+     try border: 1px solid black; 
+     to see the limits of the object
+*/
+
+}
+
+.stories {
+
+    display: flex;
+    align-items: stretch;
+}
+
+.story {
+
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.story-title {
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+.side-stories {
+    width: 25%;
+}
+
+.middle-story {
+
+    width: 75%;
+    
+}
+
+.middle-story img {
+
+    width: 100%;
+    align-self: center;
+}
+
+.three-quarter {
+    width: 75%;
+}
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+
+.category {
+
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    padding-left: 25px;
+}
+
+.politics {
+    background-color: yellow;
+}
+
+.sports {
+    background-color: grey;
+}
+
+.opinion {
+    background-color: pink;
+}
+
+.local {
+    background-color: greenyellow;
+}
+
+.tech {
+    background-color: orange;
+}
